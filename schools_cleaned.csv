@@ -1,0 +1,210 @@
+ORG_CODE,DISTRICT_NAME,SCHOOL,SCHOOL_NAME,COUNTY,School_Total,# of students 7-12th grades,Have Middle or High Schoolers?,% PK - 6th graders,Include in SMITH visualization?
+0097,Fitchburg,00970510,Goodrich Academy,Worcester,186,160,Yes,0%,Include
+0348,Worcester,03480503,Burncoat Senior High,Worcester,1073,1050,Yes,0%,Include
+0348,Worcester,03480605,Worcester Technical High,Worcester,1442,1419,Yes,0%,Include
+0271,Shrewsbury,02710505,Shrewsbury High School,Worcester,1891,1869,Yes,0%,Include
+0348,Worcester,03480520,South High Community,Worcester,1800,1779,Yes,0%,Include
+0775,Wachusett,07750505,Wachusett Regional High,Worcester,1779,1760,Yes,0%,Include
+0730,Northboro-Southboro,07300505,Algonquin Regional High,Worcester,1197,1181,Yes,0%,Include
+0110,Grafton,01100505,Grafton High School,Worcester,914,899,Yes,0%,Include
+0236,Pittsfield,02360505,Pittsfield High,Berkshire,727,712,Yes,0%,Include
+0005,Agawam,00050405,Agawam Junior High,Hampden,527,527,Yes,0%,Include
+0325,Westfield,03250505,Westfield High,Hampden,1034,1020,Yes,0%,Include
+0024,Belchertown,00240025,Jabish Middle School,Hampshire,343,343,Yes,0%,Include
+0348,Worcester,03480515,North High,Worcester,1376,1362,Yes,0%,Include
+0061,Chicopee,00610021,Chicopee Academy,Hampden,92,92,Yes,0%,Include
+0061,Chicopee,00610505,Chicopee High,Hampden,918,918,Yes,0%,Include
+0061,Chicopee,00610510,Chicopee Comprehensive High School,Hampden,1192,1192,Yes,0%,Include
+0114,Greenfield,01140505,Greenfield High,Franklin,404,394,Yes,0%,Include
+0153,Leominster,01530605,Center For Technical Education Innovation,Worcester,821,811,Yes,0%,Include
+0332,West Springfield,03320505,West Springfield High,Hampden,1231,1221,Yes,0%,Include
+0086,Easthampton,00860505,Easthampton High,Hampshire,377,377,Yes,0%,Include
+0005,Agawam,00050505,Agawam High,Hampden,1025,1016,Yes,0%,Include
+0309,Ware,03090505,Ware Junior/Senior High School,Hampshire,425,416,Yes,0%,Include
+0097,Fitchburg,00970505,Fitchburg High,Worcester,1220,1220,Yes,0%,Include
+0321,Westborough,03210505,Westborough High,Worcester,1213,1204,Yes,0%,Include
+0024,Belchertown,00240505,Belchertown High,Hampshire,573,565,Yes,0%,Include
+0103,Gardner,01030515,Gardner Academy for Learning and Technology,Worcester,123,123,Yes,0%,Include
+0110,Grafton,01100305,Grafton Middle,Worcester,478,478,Yes,0%,Include
+0111,Granby,01110505,Granby Jr Sr High School,Hampshire,290,290,Yes,0%,Include
+0304,Uxbridge,03040505,Uxbridge High,Worcester,590,582,Yes,0%,Include
+0117,Hadley,01170505,Hopkins Academy,Hampshire,203,203,Yes,0%,Include
+0125,Harvard,01250505,The Bromfield High School,Worcester,328,328,Yes,0%,Include
+0127,Hatfield,01270505,Smith Academy,Hampshire,109,109,Yes,0%,Include
+0348,Worcester,03480512,Doherty Memorial High,Worcester,1573,1565,Yes,0%,Include
+0137,Holyoke,01370505,Holyoke High,Hampden,1569,1569,Yes,0%,Include
+0191,Monson,01910505,Monson High School,Hampden,280,273,Yes,0%,Include
+0153,Leominster,01530515,Leominster Center for Excellence,Worcester,65,65,Yes,0%,Include
+0153,Leominster,01530705,Leominster Academy,Worcester,32,32,Yes,0%,Include
+0159,Longmeadow,01590505,Longmeadow High,Hampden,897,897,Yes,0%,Include
+0680,Hampden-Wilbraham,06800505,Minnechaug Regional High,Hampden,990,983,Yes,0%,Include
+0162,Lunenburg,01620505,Lunenburg High,Worcester,452,452,Yes,0%,Include
+0725,Nashoba,07250505,Nashoba Regional,Worcester,806,799,Yes,0%,Include
+0767,Spencer-E Brookfield,07670505,David Prouty High,Worcester,306,299,Yes,0%,Include
+0770,Tantasqua,07700505,Tantasqua Regional Sr High,Worcester,632,625,Yes,0%,Include
+0185,Milford,01850505,Milford High,Worcester,1316,1316,Yes,0%,Include
+0209,North Adams,02090505,Drury High,Berkshire,438,432,Yes,0%,Include
+0210,Northampton,02100505,Northampton High,Hampshire,875,869,Yes,0%,Include
+0605,Amherst-Pelham,06050505,Amherst Regional High,Hampshire,816,810,Yes,0%,Include
+0670,Frontier,06700505,Frontier Regional,Franklin,588,582,Yes,0%,Include
+0710,Mendon-Upton,07100510,Nipmuc Regional High,Worcester,534,528,Yes,0%,Include
+0153,Leominster,01530505,Leominster High School,Worcester,1060,1055,Yes,0%,Include
+0186,Millbury,01860505,Millbury Junior/Senior High,Worcester,722,717,Yes,0%,Include
+0236,Pittsfield,02360510,Taconic High,Berkshire,824,824,Yes,0%,Include
+0103,Gardner,01030505,Gardner High,Worcester,808,804,Yes,0%,Include
+0151,Leicester,01510505,Leicester High,Worcester,388,384,Yes,0%,Include
+0161,Ludlow,01610505,Ludlow Senior High,Hampden,736,732,Yes,0%,Include
+0271,Shrewsbury,02710030,Oak Middle School,Worcester,914,914,Yes,0%,Include
+0214,Northbridge,02140505,Northbridge High,Worcester,471,467,Yes,0%,Include
+0277,Southbridge,02770515,Southbridge High School,Worcester,419,419,Yes,0%,Include
+0277,Southbridge,02770525,Southbridge Academy,Worcester,21,21,Yes,0%,Include
+0281,Springfield,02810500,Springfield Central High,Hampden,1983,1983,Yes,0%,Include
+0281,Springfield,02810510,High School Of Commerce,Hampden,966,966,Yes,0%,Include
+0281,Springfield,02810530,Springfield High School of Science and Technology,Hampden,1091,1091,Yes,0%,Include
+0281,Springfield,02810550,Springfield Public Day High School,Hampden,65,65,Yes,0%,Include
+0281,Springfield,02810560,Liberty Preparatory Academy,Hampden,6,6,Yes,0%,Include
+0281,Springfield,02810570,Springfield High School,Hampden,237,237,Yes,0%,Include
+0281,Springfield,02810575,Gateway to College at Holyoke Community College,Hampden,21,21,Yes,0%,Include
+0281,Springfield,02810580,Gateway to College at Springfield Technical Community College,Hampden,25,25,Yes,0%,Include
+0281,Springfield,02810620,Roger L. Putnam Vocational Technical Academy,Hampden,1382,1382,Yes,0%,Include
+0281,Springfield,02810700,Springfield International Academy at Sci-Tech,Hampden,95,95,Yes,0%,Include
+0278,South Hadley,02780505,South Hadley High,Hampshire,479,475,Yes,0%,Include
+0290,Sutton,02900510,Sutton High School,Worcester,367,367,Yes,0%,Include
+0316,Webster,03160505,Bartlett High School,Worcester,408,404,Yes,0%,Include
+0610,Ashburnham-Westminster,06100505,Oakmont Regional High School,Worcester,633,629,Yes,0%,Include
+0615,Athol-Royalston,06150505,Athol High,Worcester,417,413,Yes,0%,Include
+0618,Berkshire Hills,06180505,Monument Mt Regional High,Berkshire,431,427,Yes,0%,Include
+0304,Uxbridge,03040515,Gateway to College,Worcester,44,44,Yes,0%,Include
+0658,Dudley-Charlton Reg,06580505,Shepherd Hill Regional High,Worcester,942,938,Yes,0%,Include
+0321,Westborough,03210305,Sarah W Gibbons Middle,Worcester,610,610,Yes,0%,Include
+0325,Westfield,03250310,Westfield Middle School,Hampden,671,671,Yes,0%,Include
+0325,Westfield,03250605,Westfield Technical Academy,Hampden,557,557,Yes,0%,Include
+0077,Douglas,00770505,Douglas High School,Worcester,267,264,Yes,0%,Include
+0087,East Longmeadow,00870505,East Longmeadow High,Hampden,753,750,Yes,0%,Include
+0138,Hopedale,01380505,Hopedale Jr Sr High,Worcester,456,453,Yes,0%,Include
+0348,Worcester,03480285,University Pk Campus School,Worcester,233,233,Yes,0%,Include
+0348,Worcester,03480405,Burncoat Middle School,Worcester,720,720,Yes,0%,Include
+0348,Worcester,03480415,Forest Grove Middle,Worcester,839,839,Yes,0%,Include
+0348,Worcester,03480420,Worcester East Middle,Worcester,731,731,Yes,0%,Include
+0343,Winchendon,03430515,Murdock High School,Worcester,256,253,Yes,0%,Include
+0622,Blackstone-Millville,06220505,Blackstone Millville RHS,Worcester,534,531,Yes,0%,Include
+0720,Narragansett,07200505,Narragansett Regional High,Worcester,492,489,Yes,0%,Include
+0348,Worcester,03480525,Worcester Alternative High School,Worcester,36,36,Yes,0%,Include
+0750,Pioneer Valley,07500505,Pioneer Valley Regional,Franklin,239,236,Yes,0%,Include
+0406,Northampton-Smith Vocational Agricultural,04060705,Smith Vocational and Agricultural High,Hampshire,587,587,Yes,0%,Include
+0753,Quabbin,07530505,Quabbin Regional High School,Worcester,545,542,Yes,0%,Include
+0413,Four Rivers Charter Public (District),04130505,Four Rivers Charter Public School,Franklin,213,213,Yes,0%,Include
+0468,Ma Academy for Math and Science,04680505,Ma Academy for Math and Science School,Worcester,99,99,Yes,0%,Include
+0474,Sizer School: A North Central Charter Essential (District),04740505,Sizer School: A North Central Charter Essential School,Worcester,282,282,Yes,0%,Include
+0479,Pioneer Valley Performing Arts Charter Public (District),04790505,Pioneer Valley Performing Arts Charter Public School,Hampshire,397,397,Yes,0%,Include
+0603,Hoosac Valley Regional,06030505,Hoosac Valley High School,Berkshire,296,296,Yes,0%,Include
+0605,Amherst-Pelham,06050405,Amherst Regional Middle School,Hampshire,366,366,Yes,0%,Include
+0635,Central Berkshire,06350505,Wahconah Regional High,Berkshire,450,450,Yes,0%,Include
+0227,Palmer,02270505,Palmer High,Hampden,416,414,Yes,0%,Include
+0674,Gill-Montague,06740505,Turners Fall High,Franklin,199,197,Yes,0%,Include
+0683,Hampshire,06830505,Hampshire Regional High,Hampshire,718,716,Yes,0%,Include
+0715,Mount Greylock,07150505,Mt Greylock Regional High,Berkshire,539,537,Yes,0%,Include
+0717,Mohawk Trail,07170505,Mohawk Trail Regional School,Franklin,316,316,Yes,0%,Include
+0150,Lee,01500505,Lee Middle/High School,Berkshire,328,327,Yes,0%,Include
+0755,Ralph C Mahar,07550505,Ralph C Mahar Regional,Franklin,509,509,Yes,0%,Include
+0770,Tantasqua,07700405,Tantasqua Regional Jr High,Worcester,576,576,Yes,0%,Include
+0348,Worcester,03480350,Claremont Academy,Worcester,474,473,Yes,0%,Include
+0770,Tantasqua,07700605,Tantasqua Regional Vocational,Worcester,542,542,Yes,0%,Include
+0778,Quaboag Regional,07780305,Quaboag Regional Middle Innovation School,Worcester,196,196,Yes,0%,Include
+0778,Quaboag Regional,07780505,Quaboag Regional High,Worcester,334,334,Yes,0%,Include
+0805,Blackstone Valley Regional Vocational Technical,08050605,Blackstone Valley,Worcester,1243,1243,Yes,0%,Include
+0818,Franklin County Regional Vocational Technical,08180605,Franklin County Technical,Franklin,643,643,Yes,0%,Include
+0766,Southwick-Tolland-Granville Regional School District,07660505,Southwick Regional School,Hampden,588,587,Yes,0%,Include
+0832,Montachusett Regional Vocational Technical,08320605,Montachusett Regional Vocational Technical,Worcester,1417,1417,Yes,0%,Include
+0851,Northern Berkshire Regional Vocational Technical,08510605,Charles McCann Vocational Technical,Berkshire,514,514,Yes,0%,Include
+0860,Pathfinder Regional Vocational Technical,08600605,Pathfinder Vocational Technical,Hampden,660,660,Yes,0%,Include
+0876,Southern Worcester County Regional Vocational School District,08760605,Bay Path Regional Vocational Technical High School,Worcester,1188,1188,Yes,0%,Include
+3508,"Phoenix Academy Public Charter High School, Springfield (District)",35080505,"Phoenix Academy Public Charter High School, Springfield",Hampden,158,158,Yes,0%,Include
+0064,Clinton,00640505,Clinton Senior High,Worcester,582,558,Yes,4%,Include
+0348,Worcester,03480423,Sullivan Middle,Worcester,940,892,Yes,5%,Include
+0281,Springfield,02810360,Springfield Middle School,Hampden,18,17,Yes,6%,Include
+0226,Oxford,02260505,Oxford High,Worcester,453,405,Yes,10%,Include
+0017,Auburn,00170505,Auburn Senior High,Worcester,834,727,Yes,12%,Include
+0281,Springfield,02810318,Emergence Academy,Hampden,382,338,Yes,12%,Include
+0620,Berlin-Boylston,06200505,Tahanto Regional High,Worcester,522,446,Yes,15%,Include
+0152,Lenox,01520505,Lenox Memorial High,Berkshire,439,371,Yes,15%,Include
+0765,Southern Berkshire,07650505,Mt Everett Regional,Berkshire,278,236,Yes,15%,Include
+0499,Hampden Charter School of Science (District),04990305,Hampden Charter School of Science,Hampden,938,794,Yes,15%,Include
+0281,Springfield,02810205,The Springfield Renaissance School an Expeditionary Learning School,Hampden,593,497,Yes,16%,Include
+0281,Springfield,02810475,Conservatory of the Arts,Hampden,296,248,Yes,16%,Include
+3514,Libertas Academy Charter School (District),35140305,Libertas Academy Charter School,Hampden,563,470,Yes,17%,Include
+0236,Pittsfield,02360525,Eagle Education Academy,Berkshire,24,20,Yes,17%,Include
+0322,West Boylston,03220505,West Boylston Junior/Senior High,Worcester,461,382,Yes,17%,Include
+0672,Gateway,06720505,Gateway Regional School,Hampshire,333,272,Yes,18%,Include
+3502,Baystate Academy Charter Public School (District),35020405,Baystate Academy Charter Public School,Hampden,388,317,Yes,18%,Include
+0414,Berkshire Arts and Technology Charter Public (District),04140305,Berkshire Arts and Technology Charter Public School,Berkshire,364,292,Yes,20%,Include
+0281,Springfield,02810317,Springfield Legacy Academy,Hampden,299,238,Yes,20%,Include
+0281,Springfield,02810320,John J Duggan Academy,Hampden,823,652,Yes,21%,Include
+0215,North Brookfield,02150505,North Brookfield High,Worcester,157,123,Yes,22%,Include
+0281,Springfield,02810345,Springfield Public Day Middle School,Hampden,60,46,Yes,23%,Include
+0674,Gill-Montague,06740310,Great Falls Middle,Franklin,228,169,Yes,26%,Include
+0281,Springfield,02810705,The Springfield Virtual School,Hampden,250,185,Yes,26%,Include
+0236,Pittsfield,02360305,John T Reid Middle,Berkshire,407,300,Yes,26%,Include
+3901,Greater Commonwealth Virtual District,39010900,Greater Commonwealth Virtual School,Franklin,1184,864,Yes,27%,Include
+0277,Southbridge,02770315,Southbridge Middle School,Worcester,380,276,Yes,27%,Include
+0725,Nashoba,07250305,Luther Burbank Middle School,Worcester,245,173,Yes,29%,Include
+0161,Ludlow,01610305,Paul R Baird Middle,Hampden,513,362,Yes,29%,Include
+0635,Central Berkshire,06350305,Nessacus Regional Middle School,Berkshire,353,247,Yes,30%,Include
+0281,Springfield,02810355,South End Middle School,Hampden,163,114,Yes,30%,Include
+0281,Springfield,02810335,Springfield Realization Academy,Hampden,212,148,Yes,30%,Include
+0214,Northbridge,02140305,Northbridge Middle,Worcester,394,274,Yes,30%,Include
+0498,Veritas Preparatory Charter School (District),04980405,Veritas Preparatory Charter School,Hampden,712,495,Yes,30%,Include
+0061,Chicopee,00610310,Dupont Middle,Hampden,683,474,Yes,31%,Include
+0210,Northampton,02100410,John F Kennedy Middle School,Hampshire,577,400,Yes,31%,Include
+0281,Springfield,02810485,Van Sickle Academy,Hampden,262,180,Yes,31%,Include
+0061,Chicopee,00610305,Bellamy Middle,Hampden,776,533,Yes,31%,Include
+0087,East Longmeadow,00870305,Birchland Park,Hampden,590,403,Yes,32%,Include
+0236,Pittsfield,02360310,Theodore Herberg Middle,Berkshire,587,400,Yes,32%,Include
+0343,Winchendon,03430315,Murdock Middle School,Worcester,281,191,Yes,32%,Include
+0077,Douglas,00770305,Douglas Middle School,Worcester,284,193,Yes,32%,Include
+0753,Quabbin,07530405,Quabbin Regional Middle School,Worcester,510,346,Yes,32%,Include
+0276,Southborough,02760305,P Brent Trottier,Worcester,404,274,Yes,32%,Include
+0137,Holyoke,01370320,Holyoke STEM Academy,Hampden,289,196,Yes,32%,Include
+0137,Holyoke,01370055,Lt Clayre Sullivan Elementary,Hampden,463,314,Yes,32%,Include
+0159,Longmeadow,01590017,Glenbrook Middle,Hampden,327,221,Yes,32%,Include
+0775,Wachusett,07750310,Central Tree Middle,Worcester,369,249,Yes,33%,Include
+0680,Hampden-Wilbraham,06800310,Wilbraham Middle,Hampden,613,413,Yes,33%,Include
+0332,West Springfield,03320305,West Springfield Middle,Hampden,909,612,Yes,33%,Include
+0185,Milford,01850305,Stacy Middle,Worcester,989,664,Yes,33%,Include
+0017,Auburn,00170305,Auburn Middle,Worcester,628,420,Yes,33%,Include
+0125,Harvard,01250305,The Bromfield Middle School,Worcester,244,163,Yes,33%,Include
+0281,Springfield,02810316,Kiley Academy,Hampden,268,179,Yes,33%,Include
+0281,Springfield,02810350,STEM Middle Academy,Hampden,269,178,Yes,34%,Include
+0213,Northborough,02130305,Robert E. Melican Middle School,Worcester,545,360,Yes,34%,Include
+0137,Holyoke,01370003,Joseph Metcalf School,Hampden,213,140,Yes,34%,Include
+0775,Wachusett,07750305,Mountview Middle,Worcester,773,504,Yes,35%,Include
+0226,Oxford,02260405,Oxford Middle,Worcester,385,251,Yes,35%,Include
+0281,Springfield,02810480,Van Sickle Prep,Hampden,206,134,Yes,35%,Include
+0153,Leominster,01530320,Sky View Middle School,Worcester,869,565,Yes,35%,Include
+0159,Longmeadow,01590305,Williams Middle,Hampden,337,219,Yes,35%,Include
+0281,Springfield,02810367,Chestnut Accelerated Middle School (Talented and Gifted),Hampden,265,172,Yes,35%,Include
+0153,Leominster,01530045,Samoset School,Worcester,495,320,Yes,35%,Include
+0281,Springfield,02810325,Forest Park Middle,Hampden,282,182,Yes,35%,Include
+0097,Fitchburg,00970315,Arthur M Longsjo Middle School,Worcester,614,394,Yes,36%,Include
+0281,Springfield,02810315,Kiley Prep,Hampden,298,191,Yes,36%,Include
+0290,Sutton,02900305,Sutton Middle School,Worcester,313,196,Yes,37%,Include
+0610,Ashburnham-Westminster,06100305,Overlook Middle School,Worcester,576,360,Yes,38%,Include
+0725,Nashoba,07250310,Hale,Worcester,247,154,Yes,38%,Include
+0097,Fitchburg,00970048,Memorial Middle School,Worcester,601,370,Yes,38%,Include
+0281,Springfield,02810328,John F Kennedy Middle,Hampden,366,224,Yes,39%,Include
+0162,Lunenburg,01620305,Lunenburg Middle School,Worcester,382,229,Yes,40%,Include
+0615,Athol-Royalston,06150305,Athol-Royalston Middle School,Worcester,446,243,Yes,46%,Include
+0767,Spencer-E Brookfield,07670415,Knox Trail Middle School,Worcester,415,223,Yes,46%,Include
+0658,Dudley-Charlton Reg,06580305,Dudley Middle School,Worcester,540,285,Yes,47%,Include
+0618,Berkshire Hills,06180310,W.E.B. Du Bois Regional Middle School,Berkshire,326,171,Yes,48%,Include
+0151,Leicester,01510015,Leicester Middle,Worcester,394,204,Yes,48%,Include
+0316,Webster,03160315,Webster Middle School,Worcester,566,293,Yes,48%,Include
+0281,Springfield,02810366,Impact Prep at Chestnut,Hampden,278,143,Yes,49%,Include
+0658,Dudley-Charlton Reg,06580310,Charlton Middle School,Worcester,631,316,Yes,50%,Include
+0278,South Hadley,02780305,Michael E. Smith Middle School,Hampshire,505,244,Yes,52%,Include
+0775,Wachusett,07750315,Chocksett Middle School,Worcester,264,127,Yes,52%,Include
+0064,Clinton,00640305,Clinton Middle School,Worcester,573,274,Yes,52%,Include
+0710,Mendon-Upton,07100015,Miscoe Hill School,Worcester,647,306,Yes,53%,Include
+0441,Springfield International Charter (District),04410505,Springfield International Charter School,Hampden,1511,711,Yes,53%,Include
+0497,Pioneer Valley Chinese Immersion Charter (District),04970205,Pioneer Valley Chinese Immersion Charter School,Hampshire,584,255,Yes,56%,Include
+0445,Abby Kelley Foster Charter Public (District),04450105,Abby Kelley Foster Charter Public School,Worcester,1426,540,Yes,62%,Include
