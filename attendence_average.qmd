@@ -14,5 +14,6 @@ attendence_average <- combined_attendance |>
   group_by(COUNTY, school_year) |>
   summarize(av_rate = mean(`Attendance Rate`))
   
+write_csv(attendence_average, "attendence_average.csv")
 ```
 
