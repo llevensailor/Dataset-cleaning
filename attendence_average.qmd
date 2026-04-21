@@ -1,0 +1,18 @@
+---
+title: "attendence_average"
+format: html
+---
+
+```{r}
+library(readr)
+library(tidyverse)
+combined_attendance <- read_csv("combined_attendance.csv")
+```
+
+```{r}
+attendence_average <- combined_attendance |>
+  group_by(COUNTY, school_year) |>
+  summarize(av_rate = mean(`Attendance Rate`))
+  
+```
+
