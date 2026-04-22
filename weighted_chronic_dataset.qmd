@@ -1,0 +1,59 @@
+---
+title: "weighted_chronic_dataset"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(car)
+library(broom)
+library(flextable)
+```
+
+```{r}
+joined_dataset <- read.csv("combined_attendance.csv")
+
+#removed columns we will not use
+joined_dataset <- joined_dataset |> select(-c(Absent.10.or.more.days, Unexcused...9.days, Chronically.Absent..20..or.more., SCHOOL_NAME))
+
+#renamed columns for better readability
+joined_dataset <- joined_dataset |>
+  rename(
+    "School_Name" = School.Name,
+    "School_Code" = School.Code,
+    "Attendance_Rate" = Attendance.Rate,
+    "Average_Absences" = Average...of.Absences,
+    "Chronic_Absent_10%+" = Chronically.Absent..10..or.more.,
+    "Num_7-12th_Graders" = X..of.students.7.12th.grades,
+    "Have_Middle_or_High_Schoolers" = Have.Middle.or.High.Schoolers.,
+    "%_PK_to_6th_Graders" = X..PK...6th.graders,
+    "Include_in_Smith_Visualization" = Include.in.SMITH.visualization.
+  )
+
+```
+
+```{r}
+#calculated weighted 10% chronic absenteeism by multiplying each school's total population by their 10% chronic absenteeism measure
+#then aggregated by school year and county
+#calculated total students for each county and sum of weighted 10% chronic absenteeism for each county
+#calculated each county's weighted 10% chronic absenteeism by dividing weighted sum by total student population
+#reordered dataset by school year (increasing) and counties' weighted 10% chronic absenteeism (descending)
+final_dataset <- joined_dataset |>
+  mutate(weighted_chronic = `Chronic_Absent_10%+` * `School_Total`) |>
+  group_by(school_year, COUNTY) |>
+  summarize(
+    total_students = sum(School_Total, na.rm = TRUE),
+    weighted_chronic_sum = sum(weighted_chronic, na.rm = TRUE),
+    num_schools = n()
+  ) |>
+  mutate(`county_chronic_10%+` = weighted_chronic_sum / total_students) |>
+  arrange(school_year, desc(weighted_chronic_sum))
+```
+```{r}
+#download final dataset
+write.csv(final_dataset, "county_chronic.csv", row.names = FALSE)
+```
+
