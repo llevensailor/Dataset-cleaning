@@ -50,8 +50,8 @@ final_dataset <- joined_dataset |>
     weighted_rate_sum = sum(weighted_rate, na.rm = TRUE),
     num_schools = n()
   ) |>
-  mutate(`county_attendance_rate` = weighted_rate_sum / total_students) |>
-  arrange(school_year, desc(weighted_rate_sum))
+  mutate(county_attendance_rate = weighted_rate_sum / total_students) |>
+  arrange(school_year, desc(county_attendance_rate))
 ```
 ```{r}
 #download final dataset
