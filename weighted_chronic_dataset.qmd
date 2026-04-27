@@ -50,7 +50,7 @@ final_dataset <- joined_dataset |>
     num_schools = n()
   ) |>
   mutate(`county_chronic_10%+` = weighted_chronic_sum / total_students) |>
-  arrange(school_year, desc(weighted_chronic_sum))
+  arrange(school_year, desc(`county_chronic_10%+`))
 ```
 ```{r}
 #download final dataset
