@@ -6,6 +6,12 @@ library(dplyr)
 
 joined_dataset <- read.csv("combined_attendance.csv")
 
+#calculated weighted average absences by multiplying each school's total population by their average absences measure
+#then aggregated by school year and county
+#calculated total students for each county and sum of weighted average absences for each county
+#calculated each county's weighted average absences by dividing weighted sum by total student population
+#reordered dataset by school year (increasing) and counties' weighted average absences (descending)
+
 final_avg_absences <- joined_dataset |>
   mutate(weighted_absences = `Average...of.Absences` * School_Total) |>
   group_by(school_year, COUNTY) |>
@@ -17,5 +23,6 @@ final_avg_absences <- joined_dataset |>
   mutate(county_avg_absences_weighted = weighted_absences_sum / total_students) |>
   arrange(school_year, desc(county_avg_absences_weighted))
 
+#download final dataset
 write.csv(final_avg_absences, "county_avg_absences.csv", row.names = FALSE)
 ```
