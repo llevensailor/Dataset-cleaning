@@ -42,6 +42,7 @@ joined_dataset <- joined_dataset |>
 #calculated total students for each county and sum of weighted attendance rate for each county
 #calculated each county's weighted attendance rate by dividing weighted sum by total student population
 #reordered dataset by school year (increasing) and counties' weighted attendance rate (descending)
+
 final_dataset <- joined_dataset |>
   mutate(weighted_rate = `Attendance_Rate` * `School_Total`) |>
   group_by(school_year, COUNTY) |>
