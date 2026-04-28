@@ -117,9 +117,9 @@ For the attendance rate variable in the overtime trends line graph, the county l
 
 ## Dataset Cleaning Methods
 
-Each Tableau Visualization will have a cleaned dataset created by joining the Absenteeism dataset and School Size/County dataset provided by stakeholder Sinead Keogh. 
+First, we created a dataset by joining the Absenteeism dataset and School Size/County dataset provided by stakeholder Sinead Keogh. Then, we cleaned the joined dataset and calculated each of the weighted indicators (see Weighted Indicator Datasets folder for CSVs). We have provided the CSVs for each individual weighted indicator and the CSV with all three weighted indicators.
 
-The cleaned datasets will be obtained through R Code and the cleaning steps taken will be documented through comments.
+The cleaned datasets are obtained through R Code and the cleaning steps taken are documented via comments in the code.
 
 Datasets Used:
 - Absenteeism Dataset: https://profiles.doe.mass.edu/statereport/attendance.aspx
