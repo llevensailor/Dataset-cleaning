@@ -1,0 +1,61 @@
+---
+title: "Data_cleaning"
+format: html
+---
+```{r}
+library(readr)
+library(dplyr)
+
+schools <- read_csv(
+  "Schools to Include for Absenteeism Visualizations_Final_4.10.2026.csv",
+  skip = 7
+)
+
+schools_clean <- schools %>%
+  filter(`Include in SMITH visualization?` == "Include") %>%
+  select(-c(PK, K, `Gr.1`, `Gr.2`, `Gr.3`, `Gr.4`, `Gr.5`,
+             `Gr.6`, `Gr.7`, `Gr.8`, `Gr.9`, `Gr.10`, `Gr.11`,
+             `Gr.12`, `SPED_Beyond_Grade_12`))
+
+# See all column names
+colnames(df)
+
+# See how many rows and columns
+dim(df)
+
+write_csv(schools_clean, "schools_cleaned.csv")
+```
+
+
+
+```{r}
+library(readr)
+library(dplyr)
+library(readxl)
+
+schools <- read_csv("schools_cleaned.csv")
+
+read_attendance <- function(file, year) {
+  df <- read_excel(file, skip = 1)
+  df$school_year <- year
+  df
+}
+
+attendance <- bind_rows(
+  read_attendance("attendance 17-18.xlsx", "2017-18"),
+  read_attendance("attendance 18-19.xlsx", "2018-19"),
+  read_attendance("attendance 19-20.xlsx", "2019-20"),
+  read_attendance("attendance 20-21.xlsx", "2020-21"),
+  read_attendance("attendance 21-22.xlsx", "2021-22"),
+  read_attendance("attendance 22-23.xlsx", "2022-23"),
+  read_attendance("attendance 23-24.xlsx", "2023-24"),
+  read_attendance("attendance 24-25.xlsx", "2024-25")
+)
+
+# inner_join = only keeps your 209 schools, excluded schools vanish
+combined <- attendance %>%
+  inner_join(schools, by = c("School Code" = "SCHOOL"))
+
+write_csv(combined, "combined_attendance.csv")
+```
+
