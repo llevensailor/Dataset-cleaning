@@ -1,0 +1,21 @@
+
+```{r}
+
+
+library(dplyr)
+
+joined_dataset <- read.csv("combined_attendance.csv")
+
+final_avg_absences <- joined_dataset |>
+  mutate(weighted_absences = `Average...of.Absences` * School_Total) |>
+  group_by(school_year, COUNTY) |>
+  summarize(
+    total_students = sum(School_Total, na.rm = TRUE),
+    weighted_absences_sum = sum(weighted_absences, na.rm = TRUE),
+    num_schools = n()
+  ) |>
+  mutate(county_avg_absences_weighted = weighted_absences_sum / total_students) |>
+  arrange(school_year, desc(county_avg_absences_weighted))
+
+write.csv(final_avg_absences, "county_avg_absences.csv", row.names = FALSE)
+```

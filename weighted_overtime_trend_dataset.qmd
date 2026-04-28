@@ -1,0 +1,53 @@
+---
+title: "weighted_overtime_trend_dataset"
+format: html
+---
+
+```{r}
+library(tidyverse)
+
+joined_dataset <- read.csv("combined_attendance.csv")
+
+weighted_overtime_trend <- joined_dataset |>
+  rename(
+    School_Name = School.Name,
+    School_Code = School.Code,
+    Attendance_Rate = Attendance.Rate,
+    Average_Absences = Average...of.Absences,
+    Chronic_Absent_10pct = Chronically.Absent..10..or.more.
+  ) |>
+  group_by(school_year, COUNTY) |>
+  summarize(
+    total_students = sum(School_Total, na.rm = TRUE),
+    
+    attendance_rate_weighted =
+      sum(Attendance_Rate * School_Total, na.rm = TRUE) / total_students,
+    
+    avg_absences_weighted =
+      sum(Average_Absences * School_Total, na.rm = TRUE) / total_students,
+    
+    chronic_10pct_weighted =
+      sum(Chronic_Absent_10pct * School_Total, na.rm = TRUE) / total_students,
+    
+    num_schools = n(),
+    .groups = "drop"
+  )
+
+weighted_overtime_trend_long <- weighted_overtime_trend |>
+  pivot_longer(
+    cols = c(attendance_rate_weighted, avg_absences_weighted, chronic_10pct_weighted),
+    names_to = "Variable",
+    values_to = "Value"
+  ) |>
+  mutate(
+    Variable = recode(
+      Variable,
+      attendance_rate_weighted = "Attendance Rate",
+      avg_absences_weighted = "Average # Absences",
+      chronic_10pct_weighted = "10% Chronic Absenteeism"
+    )
+  )
+
+write.csv(weighted_overtime_trend_long, "weighted_overtime_trend_long.csv", row.names = FALSE)
+```
+

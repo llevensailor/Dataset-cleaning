@@ -1,0 +1,121 @@
+"school_year","COUNTY","total_students","num_schools","Variable","Value"
+"2017-18","Berkshire",7301,16,"Attendance Rate",93.0359950691686
+"2017-18","Berkshire",7301,16,"Average # Absences",12.0662648952198
+"2017-18","Berkshire",7301,16,"10% Chronic Absenteeism",21.1925489658951
+"2017-18","Franklin",4523,10,"Attendance Rate",93.043157196551
+"2017-18","Franklin",4523,10,"Average # Absences",11.3964846340924
+"2017-18","Franklin",4523,10,"10% Chronic Absenteeism",21.4344240548309
+"2017-18","Hampden",33487,56,"Attendance Rate",93.3658285304745
+"2017-18","Hampden",33487,56,"Average # Absences",11.1364887866933
+"2017-18","Hampden",33487,56,"10% Chronic Absenteeism",17.9733090453012
+"2017-18","Hampshire",8557,18,"Attendance Rate",94.1078765922636
+"2017-18","Hampshire",8557,18,"Average # Absences",10.3130770129718
+"2017-18","Hampshire",8557,18,"10% Chronic Absenteeism",14.9685403763001
+"2017-18","Worcester",61877,96,"Attendance Rate",94.3521308402153
+"2017-18","Worcester",61877,96,"Average # Absences",9.67644035748339
+"2017-18","Worcester",61877,96,"10% Chronic Absenteeism",14.4758100748259
+"2018-19","Berkshire",7301,16,"Attendance Rate",93.2110806738803
+"2018-19","Berkshire",7301,16,"Average # Absences",11.8346390905355
+"2018-19","Berkshire",7301,16,"10% Chronic Absenteeism",19.8518148198877
+"2018-19","Franklin",4523,10,"Attendance Rate",92.530046429361
+"2018-19","Franklin",4523,10,"Average # Absences",12.0950696440416
+"2018-19","Franklin",4523,10,"10% Chronic Absenteeism",23.8092416537696
+"2018-19","Hampden",33871,58,"Attendance Rate",93.5861562988988
+"2018-19","Hampden",33871,58,"Average # Absences",10.7982699064096
+"2018-19","Hampden",33871,58,"10% Chronic Absenteeism",16.9511499512858
+"2018-19","Hampshire",8557,18,"Attendance Rate",94.187390440575
+"2018-19","Hampshire",8557,18,"Average # Absences",10.1456585251841
+"2018-19","Hampshire",8557,18,"10% Chronic Absenteeism",15.0539675119785
+"2018-19","Worcester",61898,97,"Attendance Rate",94.3285808911435
+"2018-19","Worcester",61898,97,"Average # Absences",9.80307118162138
+"2018-19","Worcester",61898,97,"10% Chronic Absenteeism",14.3995007916249
+"2019-20","Berkshire",7301,16,"Attendance Rate",93.0811943569374
+"2019-20","Berkshire",7301,16,"Average # Absences",7.4056293658403
+"2019-20","Berkshire",7301,16,"10% Chronic Absenteeism",20.9810436926448
+"2019-20","Franklin",4523,10,"Attendance Rate",93.2072518240106
+"2019-20","Franklin",4523,10,"Average # Absences",7.13358390448817
+"2019-20","Franklin",4523,10,"10% Chronic Absenteeism",19.6692018571744
+"2019-20","Hampden",33871,58,"Attendance Rate",93.6289805438281
+"2019-20","Hampden",33871,58,"Average # Absences",6.742461102418
+"2019-20","Hampden",33871,58,"10% Chronic Absenteeism",16.7310176847451
+"2019-20","Hampshire",8557,18,"Attendance Rate",94.4516419305832
+"2019-20","Hampshire",8557,18,"Average # Absences",5.95039149234545
+"2019-20","Hampshire",8557,18,"10% Chronic Absenteeism",14.2095243660161
+"2019-20","Worcester",61898,97,"Attendance Rate",94.4120989369608
+"2019-20","Worcester",61898,97,"Average # Absences",5.97889269443278
+"2019-20","Worcester",61898,97,"10% Chronic Absenteeism",15.1230168987689
+"2020-21","Berkshire",7325,17,"Attendance Rate",91.1223344709898
+"2020-21","Berkshire",7325,17,"Average # Absences",14.7427849829352
+"2020-21","Berkshire",7325,17,"10% Chronic Absenteeism",26.1496928327645
+"2020-21","Franklin",4523,10,"Attendance Rate",89.7921070086226
+"2020-21","Franklin",4523,10,"Average # Absences",16.4269732478444
+"2020-21","Franklin",4523,10,"10% Chronic Absenteeism",31.712668582799
+"2020-21","Hampden",35118,62,"Attendance Rate",92.19869297796
+"2020-21","Hampden",35118,62,"Average # Absences",12.7407170112193
+"2020-21","Hampden",35118,62,"10% Chronic Absenteeism",21.8305569793268
+"2020-21","Hampshire",8557,18,"Attendance Rate",92.9096529157415
+"2020-21","Hampshire",8557,18,"Average # Absences",11.8063456818979
+"2020-21","Hampshire",8557,18,"10% Chronic Absenteeism",21.6547154376534
+"2020-21","Worcester",61898,97,"Attendance Rate",92.9124188180555
+"2020-21","Worcester",61898,97,"Average # Absences",11.7062586836408
+"2020-21","Worcester",61898,97,"10% Chronic Absenteeism",21.6592927073573
+"2021-22","Berkshire",7325,17,"Attendance Rate",89.4071945392491
+"2021-22","Berkshire",7325,17,"Average # Absences",18.3015836177474
+"2021-22","Berkshire",7325,17,"10% Chronic Absenteeism",35.6650648464164
+"2021-22","Franklin",4523,10,"Attendance Rate",91.8322131328764
+"2021-22","Franklin",4523,10,"Average # Absences",13.7663718770727
+"2021-22","Franklin",4523,10,"10% Chronic Absenteeism",27.8795047534822
+"2021-22","Hampden",35580,64,"Attendance Rate",89.794682405846
+"2021-22","Hampden",35580,64,"Average # Absences",17.261197301855
+"2021-22","Hampden",35580,64,"10% Chronic Absenteeism",35.2805199550309
+"2021-22","Hampshire",8557,18,"Attendance Rate",91.8040434731798
+"2021-22","Hampshire",8557,18,"Average # Absences",14.2935257683768
+"2021-22","Hampshire",8557,18,"10% Chronic Absenteeism",26.809208834872
+"2021-22","Worcester",61898,97,"Attendance Rate",91.4267811560955
+"2021-22","Worcester",61898,97,"Average # Absences",14.7696274516139
+"2021-22","Worcester",61898,97,"10% Chronic Absenteeism",28.4714546512004
+"2022-23","Berkshire",7325,17,"Attendance Rate",90.7496928327645
+"2022-23","Berkshire",7325,17,"Average # Absences",16.0995085324232
+"2022-23","Berkshire",7325,17,"10% Chronic Absenteeism",30.0689010238908
+"2022-23","Franklin",4523,10,"Attendance Rate",89.9290957329206
+"2022-23","Franklin",4523,10,"Average # Absences",16.5708379394207
+"2022-23","Franklin",4523,10,"10% Chronic Absenteeism",25.4914216228167
+"2022-23","Hampden",35580,64,"Attendance Rate",91.2857279370433
+"2022-23","Hampden",35580,64,"Average # Absences",14.7841455874087
+"2022-23","Hampden",35580,64,"10% Chronic Absenteeism",27.6142804946599
+"2022-23","Hampshire",8557,18,"Attendance Rate",92.2891317050368
+"2022-23","Hampshire",8557,18,"Average # Absences",13.46124810097
+"2022-23","Hampshire",8557,18,"10% Chronic Absenteeism",23.2635269370106
+"2022-23","Worcester",61898,97,"Attendance Rate",92.6405812788782
+"2022-23","Worcester",61898,97,"Average # Absences",12.6910174803709
+"2022-23","Worcester",61898,97,"10% Chronic Absenteeism",22.0717616078064
+"2023-24","Berkshire",7325,17,"Attendance Rate",89.9997679180888
+"2023-24","Berkshire",7325,17,"Average # Absences",17.2902798634812
+"2023-24","Berkshire",7325,17,"10% Chronic Absenteeism",32.9618976109215
+"2023-24","Franklin",4523,10,"Attendance Rate",90.6395312845457
+"2023-24","Franklin",4523,10,"Average # Absences",15.3603802785762
+"2023-24","Franklin",4523,10,"10% Chronic Absenteeism",23.9874861817378
+"2023-24","Hampden",35580,64,"Attendance Rate",91.4710174255199
+"2023-24","Hampden",35580,64,"Average # Absences",14.4197751545812
+"2023-24","Hampden",35580,64,"10% Chronic Absenteeism",26.8616722878021
+"2023-24","Hampshire",8557,18,"Attendance Rate",92.871625569709
+"2023-24","Hampshire",8557,18,"Average # Absences",12.4699427369405
+"2023-24","Hampshire",8557,18,"10% Chronic Absenteeism",20.102161972654
+"2023-24","Worcester",62174,99,"Attendance Rate",92.6471322417731
+"2023-24","Worcester",62174,99,"Average # Absences",12.6603901952585
+"2023-24","Worcester",62174,99,"10% Chronic Absenteeism",21.9128912407116
+"2024-25","Berkshire",7325,17,"Attendance Rate",90.2653788395904
+"2024-25","Berkshire",7325,17,"Average # Absences",16.8261706484642
+"2024-25","Berkshire",7325,17,"10% Chronic Absenteeism",31.7074129692833
+"2024-25","Franklin",4523,10,"Attendance Rate",92.8311297811187
+"2024-25","Franklin",4523,10,"Average # Absences",11.9084236126465
+"2024-25","Franklin",4523,10,"10% Chronic Absenteeism",21.8843024541234
+"2024-25","Hampden",35580,64,"Attendance Rate",91.5224508150646
+"2024-25","Hampden",35580,64,"Average # Absences",14.4153007307476
+"2024-25","Hampden",35580,64,"10% Chronic Absenteeism",26.3730073074761
+"2024-25","Hampshire",8557,18,"Attendance Rate",92.9053874021269
+"2024-25","Hampshire",8557,18,"Average # Absences",12.3902886525652
+"2024-25","Hampshire",8557,18,"10% Chronic Absenteeism",19.760079467103
+"2024-25","Worcester",62210,100,"Attendance Rate",92.7877800996624
+"2024-25","Worcester",62210,100,"Average # Absences",12.4401398488989
+"2024-25","Worcester",62210,100,"10% Chronic Absenteeism",20.7501430638161
