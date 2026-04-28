@@ -119,7 +119,7 @@ For the attendance rate variable in the overtime trends line graph, the county l
 
 First, we created a dataset by joining the Absenteeism dataset and School Size/County dataset provided by stakeholder Sinead Keogh. Then, we cleaned the joined dataset and calculated each of the weighted indicators (see Weighted Indicator Datasets folder for CSVs). We have provided the CSVs for each individual weighted indicator and the CSV with all three weighted indicators.
 
-The cleaned datasets are obtained through R Code and the cleaning steps taken are documented via comments in the code.
+The cleaned datasets are obtained through R Code and the cleaning steps taken are documented via comments in the code (see R Code for Dataset Cleaning folder).
 
 Datasets Used:
 - Absenteeism Dataset: https://profiles.doe.mass.edu/statereport/attendance.aspx
