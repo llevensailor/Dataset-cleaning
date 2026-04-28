@@ -6,6 +6,8 @@ library(dplyr)
 
 joined_dataset <- read.csv("combined_attendance.csv")
 
+
+
 #calculated weighted average absences by multiplying each school's total population by their average absences measure
 #then aggregated by school year and county
 #calculated total students for each county and sum of weighted average absences for each county
