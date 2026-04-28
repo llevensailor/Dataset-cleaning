@@ -41,6 +41,7 @@ joined_dataset <- joined_dataset |>
 #calculated total students for each county and sum of weighted 10% chronic absenteeism for each county
 #calculated each county's weighted 10% chronic absenteeism by dividing weighted sum by total student population
 #reordered dataset by school year (increasing) and counties' weighted 10% chronic absenteeism (descending)
+
 final_dataset <- joined_dataset |>
   mutate(weighted_chronic = `Chronic_Absent_10%+` * `School_Total`) |>
   group_by(school_year, COUNTY) |>
