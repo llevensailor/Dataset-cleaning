@@ -1,4 +1,27 @@
-# Dataset Cleaning Methods
+## Purpose of the VA
+
+
+
+
+
+
+## How to Use 
+
+
+
+
+
+
+
+## Any bugs 
+
+
+
+
+
+
+
+## Dataset Cleaning Methods
 
 Each Tableau Visualization will have a cleaned dataset created by joining the Absenteeism dataset and School Size/County dataset provided by stakeholder Sinead Keogh. 
 
