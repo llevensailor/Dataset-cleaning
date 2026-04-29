@@ -9,7 +9,6 @@ library(tidyverse)
 joined_dataset <- read.csv("combined_attendance.csv")
 
 
-
 #aggregated by school year and county
 #calculated total students for each county
 #calculated all three weighted indicators by multiplying each school's total population by their indicator measures
