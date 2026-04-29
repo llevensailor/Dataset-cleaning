@@ -6,7 +6,10 @@ average number of absences, chronically absent, and the overall trends. Chronica
 at least 10% of the total school days for that year. The attendance rate was first broken down to each individual 
 school, but we later created an attendance rate for each county for each year. The average number of absences was 
 found by taking the number of students who had over nine unexcused absences by the end of the year and divided 
-it by the total enrolled for that school. Our VA system is meant to show the problem of absenteeism in schools. 
+it by the total enrolled for that school. 
+
+Our VA system is meant to show the problem of absenteeism in schools in a way that is easy for the public to understand. To support this, the dashboard uses three different visual encodings: color to compare counties, line positions to show changes over time, and length of bars to compare absenteeism values across counties. The VA system also includes details-on-demand interaction, allowing users to click or hover over parts of the dashboard to see more specific information or value for a specific year. In addition, the dashboard uses a coordinated view of data, meaning that multiple graphs work together so users can compare absenteeism patterns across counties, years, and indicators.
+ 
 The Public Health Institute wants this data to be able to show the problems with students missing school and try
 and the effects it has. Absenteeism is a problem that is not highlighted enough but it is extremely important. The hope
 is to improve absenteeism moving forward, especially after the COVID-19 pandemic. This dashboard is the first step in 
