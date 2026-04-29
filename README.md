@@ -2,9 +2,9 @@
 The focus of our visual analytics system is absenteeism within western Mass counties. We were asked by 
 members of the Public Health Institute of Western MA to create a public-facing system that can visualize 
 the trends per county. We are looking at absenteeism from three angles:
-- attendance rate
-- 10% chronic absenteeism
-- average number of absences
+- Attendance Rate
+- 10% Chronic Absenteeism
+- Average Number of Absences
 
 The attendance rate was first broken down to each individual school, but we later created an attendance rate for each county for each year. 10% chronically absent is defined as missing at least 10% of the total school days for that year. The average number of absences was found by taking the number of students who had over nine unexcused absences by the end of the year and dividing it by the total enrolled for that school. 
 
@@ -28,7 +28,7 @@ The Overview tab gives users a summary of the main attendance and absenteeism pa
 
 - The line graph at the top shows changes over school years.
 - The drop-down menu allows users to switch the variable displayed in the line graph.
-- The bar charts below show county-level average values for:
+- The bar charts below show county-level weighted values for:
   - Attendance Rate
   - 10% Chronic Absenteeism
   - Average Number of Absences
@@ -125,4 +125,6 @@ The cleaned datasets were obtained through R Code and the cleaning steps are doc
 
 Datasets Used:
 - Absenteeism Dataset: https://profiles.doe.mass.edu/statereport/attendance.aspx
+  - selected "Report Type: School" and "Year: 20xx-xx (End of year)"
 - School Size/County Dataset: https://www.doe.mass.edu/infoservices/reports/enroll/default.html?yr=2425
+  - selected "Enrollment Data: School Year 2024-2025" and downloaded "Enrollment by School/Grade"
