@@ -1,19 +1,17 @@
 ## Purpose of the VA
 The focus of our visual analytics system is absenteeism within western Mass counties. We were asked by 
-members of the Public Health Institute of Western MA to create a public facing system that can visualize 
-the trends per county. We are looking at absenteeism from multiple different angles, namely attendance rate, 
-average number of absences, chronically absent, and the overall trends. Chronically absent is defined as missing 
-at least 10% of the total school days for that year. The attendance rate was first broken down to each individual 
-school, but we later created an attendance rate for each county for each year. The average number of absences was 
-found by taking the number of students who had over nine unexcused absences by the end of the year and divided 
-it by the total enrolled for that school. 
+members of the Public Health Institute of Western MA to create a public-facing system that can visualize 
+the trends per county. We are looking at absenteeism from three angles:
+- attendance rate
+- 10% chronic absenteeism
+- average number of absences
+The attendance rate was first broken down to each individual school, but we later created an attendance rate for each county for each year. 10% chronically absent is defined as missing at least 10% of the total school days for that year. The average number of absences was found by taking the number of students who had over nine unexcused absences by the end of the year and dividing it by the total enrolled for that school. 
 
 Our VA system is meant to show the problem of absenteeism in schools in a way that is easy for the public to understand. To support this, the dashboard uses three different visual encodings: color to compare counties, line positions to show changes over time, and length of bars to compare absenteeism values across counties. The VA system also includes details-on-demand interaction, allowing users to click or hover over parts of the dashboard to see more specific information or value for a specific year. In addition, the dashboard uses a coordinated view of data, meaning that multiple graphs work together so users can compare absenteeism patterns across counties, years, and indicators.
  
-The Public Health Institute wants this data to be able to show the problems with students missing school and try
-and the effects it has. Absenteeism is a problem that is not highlighted enough but it is extremely important. The hope
-is to improve absenteeism moving forward, especially after the COVID-19 pandemic. This dashboard is the first step in 
-creating more awareness and action taken to keep kids in school. 
+The Public Health Institute wants this data to be able to show the problems of student absenteeism and the effects it has. Absenteeism is a problem that is not highlighted enough but it is extremely important. The hope
+is to reduce absenteeism moving forward, especially after the COVID-19 pandemic. This dashboard is the first step in 
+creating more awareness and driving action to keep kids in school. 
 
 
 
@@ -112,9 +110,9 @@ The Average # Absences tab shows the average number of absences by county for a 
 
 1. For the overtime trends line graph in the overview tab, choosing a specific dot on a line is slightly difficult. This is because the dots are small, and there are dots from other lines displaying at the same time so it's easy to misclick the dots on the other lines. 
 
-2. Also in the overview tab, if the users double click on one of the county in one of the bar graphs, the other bars in this graph will disappear without any instruction on how to bring them back. 
+2. Also in the overview tab, if the users double click on one of the counties in one of the bar graphs, the other bars in this graph will disappear without any instruction on how to bring them back. 
 
-3. For the attendance rate variable in the overtime trends line graph, the county lines overlapped a bit too much because the y-axis range from 0 to 100 percent but most of the lines are around the 90 to 100 percent range. So this might be hard to visually identify the difference in attendance rate for different counties. 
+3. For the attendance rate variable in the overtime trends line graph, the county lines overlapped a bit too much because the y-axis ranges from 0 to 100% but most of the lines are around the 90 to 100% range. So this might be hard to visually identify the difference in attendance rates for different counties. 
 
 
 
@@ -122,7 +120,7 @@ The Average # Absences tab shows the average number of absences by county for a 
 
 First, we created a dataset by joining the Absenteeism dataset and School Size/County dataset provided by stakeholder Sinead Keogh. Then, we cleaned the joined dataset and calculated each of the weighted indicators (see Weighted Indicator Datasets folder for CSVs). We have provided the CSVs for each individual weighted indicator and the CSV with all three weighted indicators.
 
-The cleaned datasets are obtained through R Code and the cleaning steps taken are documented via comments in the code (see R Code for Dataset Cleaning folder).
+The cleaned datasets were obtained through R Code and the cleaning steps are documented via comments in the code (see R Code for Dataset Cleaning folder).
 
 Datasets Used:
 - Absenteeism Dataset: https://profiles.doe.mass.edu/statereport/attendance.aspx
