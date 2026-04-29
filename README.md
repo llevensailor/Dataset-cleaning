@@ -35,7 +35,7 @@ The Overview tab gives users a summary of the main attendance and absenteeism pa
   - Average Number of Absences
 - A text label shows which school year the bar charts are currently displaying.
 
-#### How to Interact With This Tab:
+#### How to Interact with This Tab:
 
 - Use the drop-down menu to choose the variable shown in the line graph.
 - Hover over points on the line graph to see detailed information, including county, school year, variable, and weighted average value.
@@ -53,7 +53,7 @@ The Overtime Trends tab focuses on changes across school years. It allows users 
 - The color legend identifies the county represented by each line.
 - The variable drop-down menu allows users to switch between different measures.
 
-#### How to Interact With This Tab:
+#### How to Interact with This Tab:
 
 - Use the variable drop-down menu to select the variable you want to explore.
 - Hover over a point on a line to see details, including county, school year, variable, and weighted average value.
@@ -69,7 +69,7 @@ The Attendance Rate tab shows the average attendance rate for each county in a s
 - The value label at the end of each bar shows the average attendance rate as a percentage.
 - The school-year slider allows users to select a specific school year.
 
-#### How to Interact With This Tab:
+#### How to Interact with This Tab:
 
 - Drag the school-year slider to choose a school year.
 - Hover over a bar to see details, including county, school year, and average attendance rate.
@@ -87,7 +87,7 @@ The 10% Chronic Absenteeism tab shows the percentage of students who were absent
 - Lower percentages indicate fewer students with significant absences.
 - This measure includes students in grades PK–12 with at least 20 days of membership.
 
-#### How to Interact With This Tab:
+#### How to Interact with This Tab:
 - Hover over a bar to see the county, school year, and chronic absenteeism rate.
 - Click a bar to highlight it.
 - Drag the school-year slider on the right to select a specific school year between 2017 and 2025.
@@ -102,7 +102,7 @@ The Average # Absences tab shows the average number of absences by county for a 
 - Values are displayed at the end of each bar.
 - Lower values indicate fewer average absences.
 
-#### How to Interact With This Tab:
+#### How to Interact with This Tab:
 - Hover over a bar to see the county, school year, and average number of absences.
 - Click a bar to highlight it.
 - Drag the school-year slider on the right to select a specific school year between 2017 and 2025.
@@ -110,11 +110,11 @@ The Average # Absences tab shows the average number of absences by county for a 
 
 ## Potential Bugs 
 
-For the overtime trends line graph in the overview tab, choosing a specific dot on a line is slighltly difficult. This is because the dots are small, and there are dots from other lines displaying at the same time so it's easy to misclick the dots on the other lines. 
+1. For the overtime trends line graph in the overview tab, choosing a specific dot on a line is slightly difficult. This is because the dots are small, and there are dots from other lines displaying at the same time so it's easy to misclick the dots on the other lines. 
 
-Also in the overview tab, if the users double click on one of the county in one of the bar graphs, the other bars in this graph will disappear without any instruction on how to bring them back. 
+2. Also in the overview tab, if the users double click on one of the county in one of the bar graphs, the other bars in this graph will disappear without any instruction on how to bring them back. 
 
-For the attendance rate variable in the overtime trends line graph, the county lines overlapped a bit too much because the y-axis range from 0 to 100 percent but most of the lines are around the 90 to 100 percent range. So this might be hard to visually identify the difference in attendance rate for different counties. 
+3. For the attendance rate variable in the overtime trends line graph, the county lines overlapped a bit too much because the y-axis range from 0 to 100 percent but most of the lines are around the 90 to 100 percent range. So this might be hard to visually identify the difference in attendance rate for different counties. 
 
 
 
