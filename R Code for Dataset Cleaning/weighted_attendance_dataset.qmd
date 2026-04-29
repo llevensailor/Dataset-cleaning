@@ -5,7 +5,6 @@ format: html
 
 
 ```{r}
-library(tidyverse)
 library(dplyr)
 ```
 
