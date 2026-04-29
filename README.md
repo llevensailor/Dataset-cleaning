@@ -18,6 +18,8 @@ creating more awareness and driving action to keep kids in school.
 
 ## How to Use 
 
+To access the dashboard download the file "final_dashboard.twbx"
+
 This dashboard explores absenteeism trends in Western Massachusetts counties from 2017 to 2025, focusing on three key metrics: average attendance rate, 10% chronic absenteeism, and average number of absences. Use the tabs at the top to navigate between views.
 
 ### 1. Overview Tab
