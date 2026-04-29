@@ -5,6 +5,7 @@ the trends per county. We are looking at absenteeism from three angles:
 - attendance rate
 - 10% chronic absenteeism
 - average number of absences
+
 The attendance rate was first broken down to each individual school, but we later created an attendance rate for each county for each year. 10% chronically absent is defined as missing at least 10% of the total school days for that year. The average number of absences was found by taking the number of students who had over nine unexcused absences by the end of the year and dividing it by the total enrolled for that school. 
 
 Our VA system is meant to show the problem of absenteeism in schools in a way that is easy for the public to understand. To support this, the dashboard uses three different visual encodings: color to compare counties, line positions to show changes over time, and length of bars to compare absenteeism values across counties. The VA system also includes details-on-demand interaction, allowing users to click or hover over parts of the dashboard to see more specific information or value for a specific year. In addition, the dashboard uses a coordinated view of data, meaning that multiple graphs work together so users can compare absenteeism patterns across counties, years, and indicators.
