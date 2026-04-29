@@ -7,11 +7,6 @@ format: html
 ```{r}
 library(tidyverse)
 library(dplyr)
-library(ggplot2)
-library(knitr)
-library(car)
-library(broom)
-library(flextable)
 ```
 
 ```{r}
