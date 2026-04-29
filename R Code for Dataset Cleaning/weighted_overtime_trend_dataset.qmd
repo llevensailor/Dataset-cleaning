@@ -8,6 +8,13 @@ library(tidyverse)
 
 joined_dataset <- read.csv("combined_attendance.csv")
 
+
+#aggregated by school year and county
+#calculated total students for each county
+#calculated all three weighted indicators by multiplying each school's total population by their indicator measures
+#calculated sum of weighted indicators for each county
+#calculated each county's weighted indicators by dividing weighted sums by total student population
+
 weighted_overtime_trend <- joined_dataset |>
   rename(
     School_Name = School.Name,
@@ -48,6 +55,7 @@ weighted_overtime_trend_long <- weighted_overtime_trend |>
     )
   )
 
+#download final dataset
 write.csv(weighted_overtime_trend_long, "weighted_overtime_trend_long.csv", row.names = FALSE)
 ```
 
