@@ -22,7 +22,7 @@ This dashboard explores absenteeism trends in Western Massachusetts counties fro
 
 The Overview tab gives users a summary of the main attendance and absenteeism patterns across Western Massachusetts counties. It combines a trend line graph with three county-level bar charts, so users can see both changes over time and county comparisons for a selected school year.
 
-#### Main features
+#### Main Features:
 
 - The line graph at the top shows changes over school years.
 - The drop-down menu allows users to switch the variable displayed in the line graph.
@@ -32,7 +32,7 @@ The Overview tab gives users a summary of the main attendance and absenteeism pa
   - Average Number of Absences
 - A text label shows which school year the bar charts are currently displaying.
 
-#### How to interact with this tab
+#### How to Interact With This Tab:
 
 - Use the drop-down menu to choose the variable shown in the line graph.
 - Hover over points on the line graph to see detailed information, including county, school year, variable, and weighted average value.
@@ -43,14 +43,14 @@ The Overview tab gives users a summary of the main attendance and absenteeism pa
 
 The Overtime Trends tab focuses on changes across school years. It allows users to compare county-level trends for one selected variable at a time.
 
-#### Main features
+#### Main Features:
 
 - The line graph shows county-level trends from 2017-18 to 2024-25.
 - Each line represents one county.
 - The color legend identifies the county represented by each line.
 - The variable drop-down menu allows users to switch between different measures.
 
-#### How to interact with this tab
+#### How to Interact With This Tab:
 
 - Use the variable drop-down menu to select the variable you want to explore.
 - Hover over a point on a line to see details, including county, school year, variable, and weighted average value.
@@ -60,20 +60,20 @@ The Overtime Trends tab focuses on changes across school years. It allows users 
 
 The Attendance Rate tab shows the average attendance rate for each county in a selected school year. Users can use this tab to compare county-level attendance rates and identify which counties had higher or lower attendance rate during that year.
 
-#### Main features
+#### Main Features:
 
 - Each horizontal bar represents one county.
 - The value label at the end of each bar shows the average attendance rate as a percentage.
 - The school-year slider allows users to select a specific school year.
 
-#### How to interact with this tab
+#### How to Interact With This Tab:
 
 - Drag the school-year slider to choose a school year.
 - Hover over a bar to see details, including county, school year, and average attendance rate.
 - Click a bar to highlight that county.
 - Compare the bar lengths and percentage labels to see which counties had higher or lower attendance rates in the selected year.
 
-### 4. 10% Chronic Absenteeism
+### 4. 10% Chronic Absenteeism Tab
 
 The 10% Chronic Absenteeism tab shows the percentage of students who were absent for 10% or more of their total membership days by county for a selected school year.
 
@@ -84,12 +84,12 @@ The 10% Chronic Absenteeism tab shows the percentage of students who were absent
 - Lower percentages indicate fewer students with significant absences.
 - This measure includes students in grades PK–12 with at least 20 days of membership.
 
-#### How to Interact:
+#### How to Interact With This Tab:
 - Hover over a bar to see the county, school year, and chronic absenteeism rate.
 - Click a bar to highlight it.
 - Drag the school-year slider on the right to select a specific school year between 2017 and 2025.
 
-### 5. Average # Absences
+### 5. Average # Absences Tab
 
 The Average # Absences tab shows the average number of absences by county for a selected school year.
 
@@ -99,13 +99,13 @@ The Average # Absences tab shows the average number of absences by county for a 
 - Values are displayed at the end of each bar.
 - Lower values indicate fewer average absences.
 
-#### How to Interact:
+#### How to Interact With This Tab:
 - Hover over a bar to see the county, school year, and average number of absences.
 - Click a bar to highlight it.
 - Drag the school-year slider on the right to select a specific school year between 2017 and 2025.
 
 
-## Any bugs 
+## Potential Bugs 
 
 For the overtime trends line graph in the overview tab, choosing a specific dot on a line is slighltly difficult. This is because the dots are small, and there are dots from other lines displaying at the same time so it's easy to misclick the dots on the other lines. 
 
