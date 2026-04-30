@@ -20,7 +20,7 @@ creating more awareness and driving action to keep kids in school.
 
 To view our public version of the Tableau dashboard click [here](https://public.tableau.com/views/CSC-235-Final-Project-Public-Health-Institute-Absenteeism-Dashboard/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
-Download the file "final_dashboard.twbx" to make changes to the dashboard.
+To make changes to the dashboard download the file "final_dashboard.twbx".
 
 This dashboard explores absenteeism trends in Western Massachusetts counties from 2017 to 2025, focusing on three key metrics: average attendance rate, 10% chronic absenteeism, and average number of absences. Use the tabs at the top to navigate between views.
 
